@@ -13,8 +13,5 @@ public class Main {
             String destinationDirectory = scanner.nextLine();
 
             FileUtils.copyFolder(sourceDirectory, destinationDirectory);
-
-//        FileUtils.copyFolder("C:\\Users\\chili\\Desktop\\Skillbox\\_материалы уроков",
-//                "C:\\Users\\chili\\Desktop\\Skillbox\\Новая папка");
     }
 }
